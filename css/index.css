@@ -1,0 +1,137 @@
+/*banner*/
+.banner{
+    width: 100%;
+    height: 321px;
+    background: url("../img/banlan.png") no-repeat;
+}
+/*.面包屑*/
+.mianbao{
+    width: 100%;
+    height: 70px;
+}
+.mianbao .mianbaot{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.mianbaot li{
+    padding-left: 10px;
+    padding-right: 0px;
+    text-align: center;
+    margin-top: 25px;
+    float: left;
+    font-size: 18px;
+}
+.mianbao{
+    display: none;
+}
+@media screen and (min-width: 768px){
+    .mianbao{
+        display: block;
+    }
+}
+/*内容开始*/
+.con-t{
+    width: 100%;
+    height: auto;
+}
+.con{
+    width: 100%;
+    margin: 0 auto;
+}
+/*.con p:nth-of-type(1){*/
+    /*font-size: 22px;*/
+    /*text-align: center;*/
+    /*color: #3b3a3a;*/
+    /*margin-bottom: 44px;*/
+    /*margin-top: 20px;*/
+/*}*/
+.con-ti{
+    height:110px;
+    margin: 0 auto;
+}
+.con-ti p:nth-of-type(1){
+    font-size: 22px;
+    text-align: center;
+    color: #3b3a3a;
+    margin-bottom: 44px;
+    margin-top: 20px;
+    float: left;
+    text-indent: 0em;
+
+}
+.con-ti p:nth-of-type(2){
+    float: right;
+    margin-top:-12%;
+}
+.con p{
+    font-size: 16px;
+    line-height: 25px;
+    text-indent: 2em;
+    text-align: justify;
+    padding: 0 20px;
+    color: #818181;
+}
+.con-img{
+    margin: 40px 0px;
+}
+.con-img img{
+   width: 90%;
+    margin-left: 5%;
+}
+.pkg{
+    margin-bottom: 40px;
+}
+@media screen and (min-width: 768px){
+    .con-ti p:nth-of-type(1){
+        margin-right: 20%;
+        margin-left: 300px !important;
+    }
+    .con-ti p:nth-of-type(2){
+        float: right;
+        margin-top:-5%;
+        /*line-height: 150px;*/
+        margin-right: 150px !important;
+    }
+    .con-ti{
+        height:100px;
+    }
+    .con{
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .con-img img{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .con p{
+        font-size: 14px;
+        line-height: 25px;
+        text-indent: 2em;
+        text-align: justify;
+        padding: 0;
+    }
+
+}
+/*分页*/
+.fenyes{
+    margin-bottom: 28px;
+    margin-top: 100px;
+    padding: 0 20px;
+    color: #818181;
+}
+.fenyex{
+    padding: 0 20px;
+    color: #818181;
+}
+/*.fenyes{*/
+    /*font-size: 20px;*/
+    /*overflow: hidden; !*自动隐藏文字*!*/
+    /*text-overflow: ellipsis;!*文字隐藏后添加省略号*!*/
+    /*!*white-space: nowrap;!*强制不换行*!*/
+    /*width: 20em;!*不允许出现半汉字截断*!*!*/
+    /*display: -webkit-box;*/
+    /*-webkit-line-clamp:2;*/
+    /*-webkit-box-orient: vertical;*/
+    /*color:#818181;*/
+/*}*/
